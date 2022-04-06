@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-left: 7rem;
+  height: 58rem;
+  width: 89%;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.box {
+  width: 20%;
+  height: 38%;
+  padding: 1.9rem;
+  border-radius: 1.4rem;
+  line-height: 1.6rem;
+
+  color: hsl(216, 12%, 54%);
+  background-color: hsl(213, 19%, 18%);
+  font-family: "Overpass", sans-serif;
+}
+
+.svg {
+  background: url(./images/icon-star.svg);
+  padding: 1.9rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  background-repeat: no-repeat;
+}
+
+.header {
+  font-size: 1.8rem;
+  letter-spacing: 0.03rem;
+  font-weight: 400;
+  color: aliceblue;
+  padding-bottom: 1rem;
+}
+
+.text {
+  padding-bottom: 2.4rem;
+  color: hsl(217, 12%, 63%);
+}
+
+.buttons {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.7rem;
+}
+
+.feedback {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  color: rgb(134, 141, 146);
+  background-color: hsl(216, 5%, 20%);
+  cursor: pointer;
+}
+.feedback:focus {
+  background-color: rgb(209, 141, 40);
+  color: rgb(40, 38, 38);
+}
+.feedback:hover {
+  background-color: rgb(175, 184, 184);
+  color: rgb(40, 38, 38);
+}
+.btn-submit {
+  width: 98%;
+  padding: 0.8rem;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: rgb(215, 133, 33);
+  letter-spacing: 0.2rem;
+  border-radius: 30px;
+}
